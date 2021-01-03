@@ -2,8 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
 	<title>Hello to Hazhar Maroufi's website!</title>
 	<style type="text/css">
+
 		nav li {
 			color: green;
 		}
@@ -17,19 +22,54 @@
  			text-decoration: none;
  			font-size: 20px;
  		}
- 		a {
- 			text-decoration: none;
- 			color: green;
- 		}
+ 
  		p.greyp {
  			color: grey;
  		}
- 		footer {
+ 		#footer {
  			color: grey;
+ 		}
+ 		#learn {
+ 			background-color: grey;
+ 			width: 33.33%;
+ 			float: left;
+ 		}
+ 		#learn2 {
+ 			background-color: purple;
+ 			width: 33.33%;
+ 			 float: left;
+ 		}
+ 		#learn3 {
+ 			background-color: pink;
+ 			width: 33.33%;
+ 			 float: right;
+ 		}
+ 		#iwill {
+ 			background-color: yellow;
+ 			width: 50%;
+ 			text-align: center;
+ 			margin : auto;
+ 
+ 		}
+ 
+ 		#also {
+ 			margin-top: 30px;
+ 		}
+ 		#footer {
+ 			width: 100%;
+ 			position: absolute;
+ 			bottom: 10px;
+ 			margin-left: auto;
+ 			margin-right: auto;
+ 			text-align: center;
+ 
  		}
 	</style>
 </head>
 <body>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
 	<header>
 		<p class="greyp">welcome to my website, here i will learn how to code and try to tech you some informtions.  </p>
 		<hr>
@@ -45,14 +85,29 @@
 		<hr>
 	</header>
 	<h1 class="textheader">Please be Patient till i learn them all</h1>
-	<section>
-		<H3>I will Learn :</H3>
+
+	<section id="learn">
+		<H3 id="iwill">I will Learn :</H3>
 		<article>HTML</article>
 		<article>CSS</article>
 		<article>JavaScript</article>
 	</section>
+		<section id="learn2">
+		<H3 id="iwill">I will Learn :</H3>
+		<article>HTML</article>
+		<article>CSS</article>
+		<article>JavaScript</article>
+	</section>
+		<section id="learn3">
+		<H3 id="iwill">I will Learn :</H3>
+		<article>HTML</article>
+		<article>CSS</article>
+		<article>JavaScript</article>
+	</section>
+
 	<hr>
-	<section>
+	<section id="also">
+		<div class="clear"></div>
 		<h3>I will aslo learn for backend :</h3>
 		<article>Phyton</article>
 	</section>
@@ -62,7 +117,7 @@
 	</aside>
 	<hr>
 	<br>
-	<footer>
+	<footer id="footer">
 		HazharMaroufi.com @ 2020
 	</footer>
 </body>
