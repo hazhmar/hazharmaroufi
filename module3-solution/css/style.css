@@ -1,0 +1,14 @@
+.nav-item {
+	padding-left: 10px;
+}
+#menuname {
+	margin-top: 30px;
+
+	margin-bottom: 60px;
+}
+ #alltext {
+ 	max-width: 90%;
+ 	padding: 10px;
+ 	background-color: gray;
+ 	color: black;
+ }
